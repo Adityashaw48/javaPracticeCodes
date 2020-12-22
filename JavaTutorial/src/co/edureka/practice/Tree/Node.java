@@ -1,0 +1,16 @@
+package co.edureka.practice.Tree;
+
+public class Node {
+	int value;
+	
+	Node leftNode;
+	Node rightNode;
+	Node(int value){
+		this.value=value;
+	}
+	
+	public void displayNode() {
+		System.out.println("{ "+value+" }");
+	}
+
+}
